@@ -1,0 +1,70 @@
+.main {
+    height: 90vh;
+}
+
+.content {
+    background-color: #042a0f;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kartu {
+    margin-top: 5%;
+    width: 21%;
+    background-color: #14151a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.kartu .price {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    margin: auto;
+    left: 70px;
+    top: -20px;
+    background-color: black;
+    color: white;
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+.price p {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 6px;
+    vertical-align: middle;
+}
+
+.kartu-body {
+    padding-left: 20px;
+}
+
+.kartu-body p {
+    font-size: 0.2rem;
+    font-weight: 700;
+    color: #989898;
+}
+
+.kartu-img img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 31vh;
+}
+
+.tmbl-beli {
+    background: transparent;
+    color: #15d04c;
+    font-weight: 500;
+    background-color: #042a0f;
+    height: 6vh;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 7%;
+}

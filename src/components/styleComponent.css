@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.header--right {
+    flex: 1;
+    display: flex;
+    width: 800px;
+}
+
+.image {
+    flex: 1;
+}
+
+.tmbl {
+    background: transparent;
+    color: white;
+    margin-left: 70%;
+    font-weight: 500;
+    background-color: #14151a;
+    height: 6vh;
+    border: none;
+    width: 20%;
+    border-radius: 10px;
+    outline: none;
+}
+
+.login {
+    display: flex;
+    background-color: #161616;
+}
+
+.login .pict,
+.login .input {
+    flex: 1;
+}
+
+.login .pict {
+    width: 50%;
+}
+
+.pict img {
+    height: auto;
+    width: 100%;
+}
+
+.padding {
+    border: none;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .input input {
+    width: 50%;
+    margin-bottom: 3%;
+    height: 7vh;
+} */
+
+.input-box {
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 50%;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.input-box::placeholder {
+    color: white;
+}
+
+.eye {
+    position: absolute;
+    right: 160px;
+    top: 265px;
+}
+
+.role-user {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.user-name {
+    display: flex;
+}
+
+.history-btn {
+    background: transparent;
+    color: white;
+    font-weight: 500;
+    background-color: #14151a;
+    height: 6vh;
+    border: none;
+    width: 120%;
+    border-radius: 10px;
+    outline: none;
+}
